@@ -1,0 +1,99 @@
+.header{
+    #nav-header{
+        background-color:#02125a;
+       
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        ul>li{
+            border-left:.5px solid rgb(42, 42, 42);
+            &:hover{
+                background-color:#000a38;
+            }
+        }
+        ul>li>a{
+            color:white;
+            padding:10px 20px;
+            
+        }
+    }
+}
+
+
+
+
+#banner-header{
+    background-image:url(../imgs/img-banner.jpg);
+    background-size:cover;
+    height: 93vh;
+    position: relative;
+    &::after{
+        content:'';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color:black;
+        position: absolute;
+        top: 0;left: 0;
+        opacity:.5;
+    }
+    .text-header{
+        position: relative;
+        z-index:1;
+        h1{
+            font-size:5vw;
+            text-shadow:0 0 10px gray;
+        }
+    }
+}
+
+.icon{
+    >.header{
+        >h6{
+            font-size:14px;
+        }
+        >p{
+            font-size:12px
+        }
+    }
+}
+// end of banner-header 
+
+
+
+
+#book-store{
+    .book-store-text{
+        position: relative;
+        &::after{
+            content:'';
+            display: block;
+            height: 50px;
+            border:2px solid rgb(2, 2, 130);
+            position: absolute;
+            top:3px;right: 0;
+            border-radius:10px;
+        }
+        >h3{
+            font-size:14px;
+        }
+        >p{
+            font-size:12px;
+        }
+    }
+    >section:nth-of-type(2)>a{
+        display: flex;
+        width: 110px;
+        height:35px;
+        padding:10px;
+        background-color:#eeeeee;
+        border-radius: 10px;
+        font-size:12px;
+        justify-content: center;
+        align-items: center;
+        color:rgb(2, 2, 130);
+        font-weight: bold;
+    }
+}

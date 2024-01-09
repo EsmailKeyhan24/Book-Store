@@ -1,0 +1,84 @@
+.header #nav-header {
+  background-color: #02125a;
+}
+.header #nav-header ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header #nav-header ul > li {
+  border-left: 0.5px solid rgb(42, 42, 42);
+}
+.header #nav-header ul > li:hover {
+  background-color: #000a38;
+}
+.header #nav-header ul > li > a {
+  color: white;
+  padding: 10px 20px;
+}
+
+#banner-header {
+  background-image: url(../imgs/img-banner.jpg);
+  background-size: cover;
+  height: 93vh;
+  position: relative;
+}
+#banner-header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+#banner-header .text-header {
+  position: relative;
+  z-index: 1;
+}
+#banner-header .text-header h1 {
+  font-size: 5vw;
+  text-shadow: 0 0 10px gray;
+}
+
+.icon > .header > h6 {
+  font-size: 14px;
+}
+.icon > .header > p {
+  font-size: 12px;
+}
+
+#book-store .book-store-text {
+  position: relative;
+}
+#book-store .book-store-text::after {
+  content: "";
+  display: block;
+  height: 50px;
+  border: 2px solid rgb(2, 2, 130);
+  position: absolute;
+  top: 3px;
+  right: 0;
+  border-radius: 10px;
+}
+#book-store .book-store-text > h3 {
+  font-size: 14px;
+}
+#book-store .book-store-text > p {
+  font-size: 12px;
+}
+#book-store > section:nth-of-type(2) > a {
+  display: flex;
+  width: 110px;
+  height: 35px;
+  padding: 10px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(2, 2, 130);
+  font-weight: bold;
+}/*# sourceMappingURL=master.css.map */
