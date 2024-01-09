@@ -1,0 +1,32 @@
+@media screen and (max-width:576px) {
+    /* small phone  */
+
+}
+
+@media screen and (min-width:576px) {
+    /* large phone  */
+
+}
+
+
+
+@media screen and (min-width:776px) {
+    /* tablet  */
+
+}
+
+
+@media screen and (min-width:992px) {
+    /* Desktop LG  */
+
+}
+
+@media screen and (min-width:1200px) {
+    /* XL  */
+
+}
+
+@media screen and (min-width:1400px) {
+    /* XXL  */
+    
+}
